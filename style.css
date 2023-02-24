@@ -108,40 +108,58 @@ img{
 
 /*About Styling*/
 
-.abtheader {
-  color: black;
+
+
+.section{
+  background-color: green;
+  width: 1600px;
+  height: 920px;
+  margin-left: 100px;
+  padding-left: 20px;
+  
+}
+.gibi{
+  display: flex;
+  flex-direction: column;
+}
+.abtheader{
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: auto;
+  color: black ;
   background-color: white;
+  font-size: 24px;
+
 }
-.nav {
+
+.navy{
   display: flex;
   justify-content: space-between;
   width: 30%;
+  gap: 20px;
+
 }
-.nav a {
+
+.navy a{
   text-decoration: none;
   color: black;
-  font-size: 29px;
+  
 }
-section {
-  background-color: #d2b48c;
+
+.wrd2{
   display: flex;
-  flex-direction: column;
-  width: 93%;
-  height: 1000px;
-}
-.wrd2 {
-  display: flex;
-  width: 75%;
+  width: 95%;
   gap: 50px;
+    color: white;
 }
+
 
 .wrd2 img {
   background-color: burlywood;
   border: 1px solid burlywood;
   border-radius: 50%;
+    filter: blur(0px);
+
 }
 
 table,
@@ -155,16 +173,19 @@ td {
 table {
   border-spacing: 15px;
 }
+
+
+
 .piro p {
   font-style: italic !important;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 20px;
   font-weight: 700;
   font-family: "Inconsolata", monospace;
-  color: white;
+
 }
 .aboutsection {
-  margin-left: 250px;
+  margin-left: 0px;
   margin-top: 70px;
 }
 
@@ -186,20 +207,4 @@ table {
   text-transform: uppercase;
   color: gold;
   font-family: "Poppins", sans-seri;
-}
-
-@media(max-width:1300px) {
-
-    .entire .headdd {
-        margin-left: 0px;
-    }
-
-}
-
-@media(max-width:991px) {
-    .headdd {
-
-        padding: 0 50px;
-
-    }
 }
